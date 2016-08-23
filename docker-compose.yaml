@@ -8,7 +8,3 @@ services:
       - "9001:9001"
       - "17073:17073"
       - "37073:37073"
-    volumes:
-      - ./mounts/backend:/var/fmv/backend_data
-      - ./mounts/witness:/var/fmv/witness_data
-      - ./mounts/supervisor:/var/fmv/supervisor
