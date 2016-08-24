@@ -1,7 +1,8 @@
 version: "2"
 services:
   testnet:
-    build: .
+    image: followmyvote/docker-testnet
+    container_name: testnet
     ports:
       - "8080:8080"
       - "8090:8090"
